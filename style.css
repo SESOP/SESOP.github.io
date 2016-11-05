@@ -1,0 +1,90 @@
+/*-- Stylesheet for SESOP --*/
+.navcontainer {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/*-- Navbar Styling --*/
+.navbar {
+  padding-top: 5px;
+  padding-bottom: 8px;
+  z-index: 3;
+  margin: 0px;
+  transition: all 0.4s;
+
+}
+.navbar-toggle .icon-bar {
+  color: gray;
+  border: 1px solid gray;
+}
+.navbar-logo {
+  width: 15%;
+}
+.navbar-right {
+  padding-right: 40px;
+}
+.navbar a { 
+  text-decoration: none;
+  color: black;
+  font-family: "Avenir Next";
+  font-size: 15px;
+  font-weight: 130;
+  text-transform: uppercase;
+}
+.navbar.nav-white {
+  background-color: white;
+  border-bottom: 1pt solid #ddd;
+}
+ul.nav a:hover { background-color: #f7832a; color: white !important; }
+
+/*-- Landing --*/
+video { 
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  transform: translateX(-50%) translateY(-50%);
+  background: url('https://layovertolife.files.wordpress.com/2013/04/wp_20130328_03_55_04_cinemagraph.gif') no-repeat;
+  transition: 1s opacity;
+  background-size: cover;
+}
+.stopfade { 
+   opacity: .5;
+}
+@media screen and (max-device-width: 800px) {
+    html {
+         background: url(https://layovertolife.files.wordpress.com/2013/04/wp_20130328_03_55_04_cinemagraph.gif) #000 no-repeat center center fixed;
+    }
+    #bgvid {
+        display: none;
+    }
+}
+.landing-logo {
+  width: 100px;
+}
+.landing h1 {
+  font-size: 3rem;
+  font-family: "Avenir Next";
+  text-transform: uppercase;
+  margin-top: 260px;
+  text-align: center;
+  letter-spacing: .3rem;
+  color: white;
+  font-weight: 100;
+}
+.landing p {
+  font-size: 3rem;
+  font-family: "Avenir Next";
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: .3rem;
+  color: white;
+}
+
+
