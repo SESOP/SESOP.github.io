@@ -90,4 +90,20 @@ ul.nav a:hover { background-color: #f7832a; color: white !important; }
   border-bottom: 1px solid white;
 }
 
+/*-- About --*/
+.logo {
+  padding: 100px 0 45px 0;
+  text-align: center;
+  width: 25%;
+  height: 35%;
+  display: block;
+  margin: 0 auto;
+}
+.aboutSESOP {
+  height: 100vh;
+  font-family: "Avenir Next";
+  font-size: 20px;
+  margin: 0px 120px 0px 120px;
+}
+
 
