@@ -13,7 +13,7 @@
   z-index: 3;
   margin: 0px;
   transition: all 0.4s;
-
+  border-bottom: 1px solid orange;
 }
 .navbar-toggle .icon-bar {
   color: gray;
@@ -42,7 +42,7 @@
 ul.nav a:hover { background-color: #f7832a; color: white !important; }
 
 /*-- Landing --*/
-video { 
+/*img { 
   position: fixed;
   top: 50%;
   left: 50%;
@@ -55,17 +55,13 @@ video {
   background: url('https://layovertolife.files.wordpress.com/2013/04/wp_20130328_03_55_04_cinemagraph.gif') no-repeat;
   transition: 1s opacity;
   background-size: cover;
-}
-.stopfade { 
-   opacity: .5;
-}
-@media screen and (max-device-width: 800px) {
-    html {
-         background: url(https://layovertolife.files.wordpress.com/2013/04/wp_20130328_03_55_04_cinemagraph.gif) #000 no-repeat center center fixed;
-    }
-    #bgvid {
-        display: none;
-    }
+}*/
+.landing {
+  padding-top: 2px;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2) ), url(images/windfarm.jpg) no-repeat center center;
+  background-size: cover;
 }
 .landing-logo {
   width: 100px;
