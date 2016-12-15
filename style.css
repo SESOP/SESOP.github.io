@@ -107,16 +107,72 @@ ul.nav a:hover { background-color: #f7832a; color: white !important; }
 }
 
 /*-- Energy Sector --*/
-.energysector {
-  font-family: "Avenir Next";
-  font-size: 15px;
+.energsector {
+  height: 100vh;
 }
 
+.ESInfo {
+  font-family: "Avenir Next";
+  font-size: 17px;
+}
+
+.pull-left {
+  height: 50%;
+  width: 50%;
+  margin-right: 10px;
+}
+
+.pull-right {
+  margin-left: 10px;
+}
+
+/*-- Gallery --*/
+.gallery img {
+  height: 50%;
+  width: 50%;
+  margin: 0px auto;
+}
+
+
 /*-- Footer --*/
-.footer {
-  height: 100px;
+footer {
   width: 100%;
-  border: 1px solid gray;
-  background-color: gray;
+  text-align: center;
+  font-family: "Avenir Next";
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding-top: 2rem;
+  padding-bottom: 0.5rem;
+  background-color: #444444;
+}
+
+footer .footerlogo {
+  width: 50%;
+  height: 50%;
+  padding-bottom: 10px;
+}
+
+.col-md-4 h5 {
+  color: #e3e6ea;
+}
+
+.col-md-4 p {
+  color: #a1a4a8;
+}
+
+.col-md-4 a {
+  color: #e3e6ea;
+  text-decoration: none;
+}
+a:hover 
+{
+     color:orange; 
+     text-decoration:none; 
+     cursor:pointer;  
+}
+
+footer .copyright {
+  color: #a1a4a8;
 }
 

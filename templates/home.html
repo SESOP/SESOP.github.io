@@ -18,7 +18,7 @@
 			<ul class="nav navbar-nav navbar-right">
 				<li><a ng-click="gotoElement('about')">About</a></li>
 				<li><a ng-click="gotoElement('energysector')">Energy Sector</a></li>
-				<li><a ng-click="gotoElement('space')">Gallery</a></li>
+				<li><a ng-click="gotoElement('gallery')">Gallery</a></li>
 				<li><a ng-click="gotoElement('contact')">Contact</a></li>
 			</ul>
 		</div><!-- /.navbar-collapse -->
@@ -56,20 +56,41 @@
 <!-- Energy Sector -->
 <div class="container">
 	<div class="row">
-		<div id="energysector" class="energysectorSESOP">
+		<div id="energysector">
 			<h1>Energy Sector</h1>
 		</div>
-		<div class="EnergySectorInfo">
-			<h1>Power Supply vs Demand</h1>
-			<p>The South African Electricity Sector has been receiving significant attention over the past several years due to continued blackouts. Local demand for electricity has grown rapidly over the past few years in South Africa and continues to do so. This demand has been spurred on by economic and population growth, which have out grown the growth rate of electricity supply. The State-owned electricity generator and supplier, Eskom, currently generates around 95% of the country’s electricity, just over 41,000 MW. However, projections suggest that by 2025 this needs to reach 80,000 MW. With energy supply constantly under pressure and blackouts expected to continue into 2015, there is an urgent need for change in the energy sector. </p>
+		<div class="ESInfo">
+			<img src="/images/global_solar_radiation.png" class="pull-left">
+				<h2>Power Supply vs Demand</h2>
+				<p>The South African Electricity Sector has been receiving significant attention over the past several years due to continued blackouts. Local demand for electricity has grown rapidly over the past few years in South Africa and continues to do so. This demand has been spurred on by economic and population growth, which have out grown the growth rate of electricity supply. The State-owned electricity generator and supplier, Eskom, currently generates around 95% of the country’s electricity, just over 41,000 MW. However, projections suggest that by 2025 this needs to reach 80,000 MW. With energy supply constantly under pressure and blackouts expected to continue into 2015, there is an urgent need for change in the energy sector. </p>
 
-			<p>The Integrated Resources Plan (IPR) was finalised in March 2011, with the intention of creating an additional 52,248MW of new power producing capacity. The introduction of Independent Power Producers (IPP) has been included to meet long term demand for electricity in South Africa. This has created opportunities for private investors to get involved in the alternative energy space.</p>
-		<div>
+				<p>The Integrated Resources Plan (IPR) was finalised in March 2011, with the intention of creating an additional 52,248MW of new power producing capacity. The introduction of Independent Power Producers (IPP) has been included to meet long term demand for electricity in South Africa. This has created opportunities for private investors to get involved in the alternative energy space.</p>
+	
+			<img src="/images/TeApiti-Windfarm1.jpg" class="pull-right">
+				<h2> Renewable Energy Potential</h2>
+				<p>South Africa has huge potential for renewable energy, especially in wind and solar. This potential, along with the need to reduce carbon emissions (ranked as the 11th largest emitter of carbon in the world), has motivated the launch of the Renewable Energy Independent Power Procurement Programme (REIPPP). This plan calls for a restricting of South Africa's energy mix, with 33% of all new build capacity in Renewable energy. This change in the energy mix within South Africa has led to exciting new investment opportunities, which SESOP is positioned well to take advantage.</p>
+		</div>
+		</div>
 	</div>
 </div>
 
-<!-- Footer -->
-<div class="footer">
+<!-- Gallery -->
+<div class="container">
 	<div class="row">
+		<div id="gallery">
+			<h1>Gallery</h1>
+		</div>
+
+		<div class="gallery">
+			<img class="mySlides" alt="" src="/images/IMG_2088.jpg">
+			<img class="mySlides" alt="" src="/images/IMG_8626.jpg">
+			<img class="mySlides" alt="" src="/images/IMG_8640.jpg">
+			
+			<a class="w3-btn-floating w3-display-left" onclick="plusDivs(-1)">&#10094;</a>
+			<a class="w3-btn-floating w3-display-right" onclick="plusDivs(+1)">&#10095;</a>
+		</div>
+		
 	</div>
 </div>
+
+
