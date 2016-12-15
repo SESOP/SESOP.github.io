@@ -106,4 +106,17 @@ ul.nav a:hover { background-color: #f7832a; color: white !important; }
   margin: 0px 120px 0px 120px;
 }
 
+/*-- Energy Sector --*/
+.energysector {
+  font-family: "Avenir Next";
+  font-size: 15px;
+}
+
+/*-- Footer --*/
+.footer {
+  height: 100px;
+  width: 100%;
+  border: 1px solid gray;
+  background-color: gray;
+}
 

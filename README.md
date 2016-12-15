@@ -1,2 +1,2 @@
 # SESOP.github.io
-SESOP website
+Secondary Energy Special Opportunities Partnership website
