@@ -67,4 +67,4 @@ app.controller('ScrollCtrl', function($scope, $location, anchorSmoothScroll) {
       // call $anchorScroll()
       anchorSmoothScroll.scrollTo(eID);
     };
-  });
+});
